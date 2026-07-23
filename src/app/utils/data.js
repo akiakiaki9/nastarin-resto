@@ -1,0 +1,116 @@
+// src/app/utils/data.js
+export const menuItems = [
+    // САЛАТЫ
+    { id: 1, name: 'Свежий салат', category: 'Салаты', description: 'Свежие овощи с зеленью', price: '30 000', image: 'https://astana.внимание.kz/wp-content/uploads/2024/11/Svezhij-salat.jpg' },
+    { id: 2, name: 'Аччик чучук', category: 'Салаты', description: 'Острый салат с помидорами и перцем', price: '30 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOrW0LEt3oSNCkZud2GqnK004nq_le2K1iolsGKm9jIj4yQwqRypqvWRYM&s=10' },
+    { id: 3, name: 'Чирокчи', category: 'Салаты', description: 'Традиционный узбекский салат', price: '30 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJ84UXf4620a2WK7DjuoBhDugGBybo6MMkR3FppiGIHI_-hedjd5ddLl_&s=10' },
+    { id: 4, name: 'Цезарь', category: 'Салаты', description: 'Классический салат Цезарь с курицей', price: '30 000', image: 'https://www.ermolino-produkty.ru/picts/recipes/670%D1%85430_salat-cezar-s-kuricey.jpg' },
+    { id: 5, name: 'Французский', category: 'Салаты', description: 'Французский салат с заправкой', price: '30 000', image: 'https://www.koolinar.ru/all_image/recipes/149/149969/recipe_0eeddf63-c84f-49a4-aef3-df5060cffdee_w450.webp' },
+    { id: 6, name: 'Мужской каприз', category: 'Салаты', description: 'Сытный салат с мясом', price: '30 000', image: 'https://i.ytimg.com/vi/D1m2xqtWKAU/sddefault.jpg' },
+    { id: 7, name: 'Рукола с мясом', category: 'Салаты', description: 'Салат с руколой и мясом', price: '35 000', image: 'https://img.povar.ru/mobile/0c/d5/16/01/teplii_salat_iz_rukkoli_i_govyadini-810544.JPG' },
+    { id: 8, name: 'Восточный', category: 'Салаты', description: 'Восточный салат с пряностями', price: '40 000', image: 'https://navat.kg/dostavka/files/products/vostochnyj-salat.300x300.jpg' },
+    { id: 9, name: 'Настарин', category: 'Салаты', description: 'Фирменный салат ресторана', price: '32 000', image: '' },
+    { id: 10, name: 'Витаминка', category: 'Салаты', description: 'Витаминный салат с овощами', price: '18 000', image: 'https://s3.outsource.store/severmetropol/pictures/2692.jpg?refresh=638878462975100000' },
+    { id: 11, name: 'Хрустящий баклажан', category: 'Салаты', description: 'Салат с жареным баклажаном', price: '35 000', image: 'https://i.ytimg.com/vi/D6GWIg0a8wo/maxresdefault.jpg' },
+    { id: 12, name: 'Овощной ассорти', category: 'Салаты', description: 'Ассорти из свежих овощей', price: '50 000', image: 'https://labirintorel.ru/wp-content/uploads/2020/10/set-ovoshhnoe-assorti-dostavka-restoran-labirint-v-orle-bankety.jpg' },
+    { id: 13, name: 'Солёный ассорти', category: 'Салаты', description: 'Ассорти из соленых овощей', price: '40 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTba6iDncyOk9K3FnpId05BAnR_6E2AB8YhSfq_ldr9cufDYgomUzTg1zs&s=10' },
+    { id: 14, name: 'Чакка', category: 'Салаты', description: 'Узбекский салат из зелени', price: '12 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrnoITW7OU5kU4Ducay_q122FLyfE2Imh3dJo9eqpMZWsCCPnwct8xTgk&s=10' },
+    { id: 15, name: 'Осиё', category: 'Салаты', description: 'Традиционный салат Осиё', price: '35 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_10mtcNihuhdfOnpq7yxcRl6JGwd68SgcrtbQye0A3XM_YapJeZqateIV&s=10' },
+    { id: 16, name: 'Вишенка', category: 'Салаты', description: 'Салат вишенка', price: '30 000', image: 'https://www.povarenok.ru/data/cache/2025jan/07/54/3158021_86544-640x480.jpg' },
+    { id: 17, name: 'Японский', category: 'Салаты', description: 'Японский салат с морепродуктами', price: '45 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bdexawcxRj5otnDRPbnx_dBovyTQmww7duzAKw08uA&s' },
+    { id: 18, name: 'Смак', category: 'Салаты', description: 'Салат с копченым мясом', price: '25 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaef1kS2NxyxWTbeIHn5IDH8QL2_xLOwSVRhxmMgkKcOGQYTNdRW1Ks2w&s=10' },
+    { id: 19, name: 'Греческий', category: 'Салаты', description: 'Греческий салат с фетой', price: '35 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3oj1SjTeT1pcx7s8P6R1jJCn4vUuGlNoYYU2i1pGu_tCMkhIKAd1AdkP&s=10' },
+    { id: 20, name: 'Баярские', category: 'Салаты', description: 'Баярский салат с грибами', price: '45 000', image: 'https://img.povar.ru/320w/47/84/9b/9a/salat_boyarskii-98546.jpg' },
+    { id: 21, name: 'Мясное ассорти', category: 'Салаты', description: 'Ассорти из разных видов мяса', price: '140 000', image: 'https://img.povar.ru/mobile/6a/eb/bf/c6/salat_myasnoe_assorti-852479.JPG' },
+
+    // ДЕСЕРТЫ
+    { id: 22, name: 'Мороженое', category: 'Десерты', description: 'Сливочное мороженое', price: '10 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJwfZga-WKbvL34EB__981U5_JSiBryR9mzU-VSnDggoaYAyYfUExROD0_&s=10' },
+    { id: 23, name: 'Кавун тарвуз', category: 'Десерты', description: 'Арбуз и дыня', price: '20 000', image: 'https://img.magnific.com/free-photo/watermelon-pineapple-cut-into-pieces-wooden-plate_1150-21571.jpg?semt=ais_hybrid&w=740&q=80' },
+    { id: 24, name: 'Мева', category: 'Десерты', description: 'Фруктовое ассорти', price: '130 000 - 150 000', image: 'https://jumanji.uz/images/product/433.jpg?1747032672' },
+    { id: 25, name: 'Печение', category: 'Десерты', description: 'Печенье к чаю', price: '10 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc7xVEjhcjWxEJIruthYi_XlhvQTAn5GQZZn_fP63WysIMIKsKuq3L7IAA&s=10' },
+
+    // НАПИТКИ
+    { id: 26, name: 'Кола 1,5л', category: 'Напитки', description: 'Coca-Cola 1.5 литра', price: '18 000', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTIyRXPJEDHH78OwHDio3ahHVjH8pmeGAOwR9ShzSrCBkGCnr6eYlRLWuI6OjRqB0V7iqLS-5er62EI24K68sv-IMC3n7phH5OeWugq9h4RLIVTt9hRzB4ToUXzmTZQ4cJHmHBl5DY&usqp=CAc' },
+    { id: 27, name: 'Кола 1л', category: 'Напитки', description: 'Coca-Cola 1 литр', price: '14 000', image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTIyRXPJEDHH78OwHDio3ahHVjH8pmeGAOwR9ShzSrCBkGCnr6eYlRLWuI6OjRqB0V7iqLS-5er62EI24K68sv-IMC3n7phH5OeWugq9h4RLIVTt9hRzB4ToUXzmTZQ4cJHmHBl5DY&usqp=CAc' },
+    { id: 28, name: 'Фанта 1,5л', category: 'Напитки', description: 'Fanta 1.5 литра', price: '18 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStUaRATuLca__KUwg054mkoS2VSn-3kMhGh51MR0fqBQ&s=10' },
+    { id: 29, name: 'Фанта 1л', category: 'Напитки', description: 'Fanta 1 литр', price: '14 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStUaRATuLca__KUwg054mkoS2VSn-3kMhGh51MR0fqBQ&s=10' },
+    { id: 30, name: 'Пепси 1,5л', category: 'Напитки', description: 'Pepsi 1.5 литра', price: '18 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYSFkhT1kJCThRqvmMVY9Jscj7noEFF2pkPtByhCMhjw&s=10' },
+    { id: 31, name: 'Пепси 1л', category: 'Напитки', description: 'Pepsi 1 литр', price: '14 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYSFkhT1kJCThRqvmMVY9Jscj7noEFF2pkPtByhCMhjw&s=10' },
+    { id: 32, name: 'Спрайт 1,5л', category: 'Напитки', description: 'Sprite 1.5 литра', price: '18 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEgFBXHcnMDgvUo8oMdzGJZ-H7HBn6yB__KSjTfIY6g&s=10' },
+    { id: 33, name: 'Спрайт 1л', category: 'Напитки', description: 'Sprite 1 литр', price: '14 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEgFBXHcnMDgvUo8oMdzGJZ-H7HBn6yB__KSjTfIY6g&s=10' },
+    { id: 34, name: 'Сочная долина', category: 'Напитки', description: 'Сок Сочная долина', price: '18 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwsjStyqGwolhn0OxP7LArOSmp1D21gSIsu0biMe0Khg&s=10' },
+    { id: 35, name: 'Вико', category: 'Напитки', description: 'Напиток Вико', price: '21 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDbN--A4-8oq4lkMYTxQF1KQJWywV9VS41Z2btSYUlWw&s=10' },
+    { id: 36, name: 'Дена', category: 'Напитки', description: 'Вода Дена', price: '15 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjIzG9GrCDFkxsI-svCDxu3GLL48PDMWEQ-e4fWow78w&s=10' },
+    { id: 37, name: 'Мохито 1л', category: 'Напитки', description: 'Мохито 1 литр', price: '45 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVBAjDcA9MpMuqSNBtGqb3P_t_7jmUbBBzwFOO8UpuA&s=10' },
+    { id: 38, name: 'Мохито банка', category: 'Напитки', description: 'Мохито в банке', price: '12 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEnJsHbVEEYZmFhh_hhUH_kkVFdcr9R5pETQmrcjEjqLhjSyiZgAPsvc&s=10' },
+    { id: 39, name: 'Черная головка 1л', category: 'Напитки', description: 'Черная головка 1 литр', price: '15 000', image: 'https://vinograd.shop/files/1c/img/items/053461.jpg' },
+    { id: 40, name: 'Черная головка 1,5л', category: 'Напитки', description: 'Черная головка 1.5 литра', price: '20 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKVrsKf6CDcMxeYSNzGxP6EY5L42SYRgROiMy3h1MuJg&s=10' },
+    { id: 41, name: 'Боржоми', category: 'Напитки', description: 'Минеральная вода Боржоми', price: '16 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUvNdNm9hsgbqSCo-yinsjN1Up-sBKtP6IemQDOOs0vQ&s=10' },
+    { id: 42, name: 'Чорток 1л', category: 'Напитки', description: 'Чорток 1 литр', price: '5 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsjtxkxtDzL_HRtR-xcBHsLnu-saYc8iMQJ9V38btkA&s=10' },
+    { id: 43, name: 'Компот', category: 'Напитки', description: 'Компот домашний', price: '6 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq0UyfAW0oHZ4NiljrMvfr_r79_71pC9bPczThmR875A&s=10' },
+    { id: 44, name: 'Анор суви', category: 'Напитки', description: 'Гранатовый сок', price: '15 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkNkrxpL882JXP6CUaR_I_o6OkLxqlRsWOTG4r0o6ebZTB6TXbQjR-5-pX&s=10' },
+    { id: 45, name: 'Флеш', category: 'Напитки', description: 'Напиток Флеш', price: '12 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0YPcvxbGw-DKbwX_jUq8ai5lqmtk2N2I3YVtYztG0vAZl8GAaWc-XC_dZ&s=10' },
+    { id: 46, name: 'Чорток 1,5л', category: 'Напитки', description: 'Чорток 1.5 литра', price: '8 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa3X5bsGoB6K9a2kFsJAbo8W_VWtFqGSEvthRkNrhWyA&s=10' },
+    { id: 47, name: 'Чорток', category: 'Напитки', description: 'Чорток', price: '12 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ_9k4Jkrt8AmugMvLodwrBgvW0wJCv755DodSwaSCcg&s=10' },
+
+    // ЧАЙ
+    { id: 48, name: 'Зеленый чай', category: 'Чай', description: 'Зеленый чай', price: '3 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFI4Sb4H43rsZbfYtEcX8J-IrM_IL6Dk_k5FwNkx9V-Rdhc6bN8SmOP5M&s=10' },
+    { id: 49, name: 'Черный чай', category: 'Чай', description: 'Черный чай', price: '3 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOPJdmMQr8_r-rurUyLTaOs_dEXoqAQGWELFezDI0FzLCWj5FM340PXugH&s=10' },
+    { id: 50, name: 'Чай с лимоном', category: 'Чай', description: 'Чай с лимоном', price: '10 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSln3QczYPeM90rvkobRdk1x86NwUQWwi2vdaIYtQVAD8fNVaZb9pdMiT0&s=10' },
+    { id: 51, name: 'Шоколад', category: 'Чай', description: 'Горячий шоколад', price: '20 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9KpUhB7IUdPgln8woF3wWed8R1SoXcznpGMYYPPBdRD-JLd5tIYeJZr69&s=10' },
+
+    // ПЕРВЫЕ БЛЮДА
+    { id: 52, name: 'Кайнатма шурбо', category: 'Первые блюда', description: 'Шурбо с бараниной', price: '28 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS8-a53IHRlqwXAE2MvwvE_on3iHjClwK3QQ-2fFp1Zd_5YepVbYktvH-G&s=10' },
+    { id: 53, name: 'Суп фрикаделки', category: 'Первые блюда', description: 'Суп с фрикадельками', price: '25 000', image: 'https://gotovim-doma.ru/images/recipe/0/71/0718e9e896655ed38dac4cb2aff6e13d_l.jpg' },
+    { id: 54, name: 'Балаза', category: 'Первые блюда', description: 'Суп Балаза', price: '28 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9oa_V5MNheKgD_dqLYOlSA5IiI2WFcaj-icIi4vjYdahftiZEg6BJ-i8&s=10' },
+    { id: 55, name: 'Куфта', category: 'Первые блюда', description: 'Куфта шурбо', price: '30 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwzYlVUarD1fesAzaWaDELTR55phgBSXLsjDGueVrz2pMkeFCBK7Fkbubk&s=10' },
+    { id: 56, name: 'Солянка', category: 'Первые блюда', description: 'Солянка мясная', price: '25 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE4ImN4_LXRjn0MBLKsJoos4xJiE30iYQlA0mTz-Gv0W56tNguqXjUUs4&s=10' },
+    { id: 57, name: 'Мастава', category: 'Первые блюда', description: 'Мастава с рисом и мясом', price: '30 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJtQWvRxpE7y3erm63wGR36-aRyzaTyJjl2LBkDvyX8qDHEGECshLjyyIY&s=10' },
+    { id: 58, name: 'Кук сомса', category: 'Первые блюда', description: 'Кук сомса', price: '10 000', image: 'https://i.ytimg.com/vi/0wTFVCFPdfo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAdJRXLIZGtpZ6Uenlkqp2_Mxo06w' },
+    { id: 59, name: 'Олот сомса', category: 'Первые блюда', description: 'Олот сомса', price: '10 000', image: 'https://avatars.mds.yandex.net/get-altay/5380071/2a0000017c64152505abf8a66c8e5275b276/L_height' },
+
+    // ВТОРЫЕ БЛЮДА - Шашлык
+    { id: 60, name: 'Кусковой', category: 'Вторые блюда', description: 'Шашлык кусковой 1шт', price: '35 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBiZDGaBYX8zH_6QKN1taaq5qGoSGI0gI59YrgU-1wKfIMx0RVFpMli0A&s=10' },
+    { id: 61, name: 'Куфта', category: 'Вторые блюда', description: 'Шашлык куфта 1шт', price: '30 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDBk0eS24mi8oRcmkd3VdBobj4XlIl3vM2wsP2OWb6abCoQtnFJcceYZYU&s=10' },
+    { id: 62, name: 'Кавурга', category: 'Вторые блюда', description: 'Шашлык кавурга 1шт', price: '45 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ul58syuH_XqirJ0h3YH3hawZl1z5gbrtstx9RQh9n1glf4M6xNSRj4s&s=10' },
+    { id: 63, name: 'Филе', category: 'Вторые блюда', description: 'Шашлык филе 1шт', price: '45 000', image: 'https://promeat18.ru/wp-content/uploads/2021/11/%D0%B1%D0%B5%D0%B4%D1%80%D0%BE-1.jpg' },
+    { id: 64, name: 'Баранина', category: 'Вторые блюда', description: 'Шашлык из баранины 1шт', price: '40 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIYQtVDiThQ-BzPTCA9uS5MYyKGqgiJbEwaM0QXHGTOw&s' },
+    { id: 65, name: 'Тандир', category: 'Вторые блюда', description: 'Шашлык из тандира 1шт', price: '35 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2GZoFecR21nhi3SW9yIoLDiXfv69ZuxnKcX1NEfDvnmV1vssHcrgkLTQ&s=10' },
+    { id: 66, name: 'Куринный', category: 'Вторые блюда', description: 'Шашлык куринный', price: '30 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPO0jSNRGRuhAVZNPT1YnGHmF3eM9Q05I27pjArffoPfV5HjwEm0ynpQcs&s=10' },
+
+    // ЖАРКОЕ
+    { id: 67, name: 'Сарёгли жиз', category: 'Вторые блюда', description: 'Сарёгли жиз', price: '255 000', image: '' },
+    { id: 68, name: 'Уйгурча жиз', category: 'Вторые блюда', description: 'Уйгурча жиз', price: '255 000', image: 'https://i.ytimg.com/vi/Sqxss0iiaZw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCrCY1oQGM6xAjK9uhG71bW_N6OzA' },
+    { id: 69, name: 'Ассорти жиз', category: 'Вторые блюда', description: 'Ассорти жиз', price: '480 000', image: 'https://avatars.mds.yandex.net/get-altay/19613367/2a0000019d0e5be0377fa1233db511b336eb/L_height' },
+    { id: 70, name: 'Табака', category: 'Вторые блюда', description: 'Табака', price: '60 000', image: 'https://avatars.mds.yandex.net/get-altay/16123546/2a0000019ad3bf188ec3784f6c72a833f23d/L_height' },
+    { id: 71, name: 'Жужа 1кг', category: 'Вторые блюда', description: 'Жужа 1 кг', price: '45 000', image: 'https://cdn.zoomda.uz/products/2026/07/17/1784242918658807767.webp' },
+    { id: 72, name: 'Балик', category: 'Вторые блюда', description: 'Балик', price: '155 000', image: 'https://zira.uz/wp-content/uploads/2019/12/riba-v-duxovke1-2.jpg' },
+    { id: 73, name: 'Вырезка', category: 'Вторые блюда', description: 'Вырезка', price: '290 000', image: '' },
+    { id: 74, name: 'К.Ф.С филе 1кг', category: 'Вторые блюда', description: 'К.Ф.С филе 1 кг', price: '80 000', image: 'https://www.russianfood.com/dycontent/images_upl/409/big_408548.jpg' },
+    { id: 75, name: 'К.Ф.С 1кг', category: 'Вторые блюда', description: 'К.Ф.С 1 кг', price: '55 000', image: 'https://hotuy.cooking/wp-content/uploads/2026/01/chicken-wings-e1767715050341-1200x720.jpg' },
+    { id: 76, name: 'Баррача', category: 'Вторые блюда', description: 'Баррача', price: '255 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQww9aEOQScP1Hfq0K9DtrMrjXbiQ0SGudjRe6qXyURWsvdC4w6ZPxl1wrN&s=10' },
+    { id: 77, name: 'Филе жиз 1кг', category: 'Вторые блюда', description: 'Филе жиз 1 кг', price: '90 000', image: '' },
+    { id: 78, name: 'Настарин шохона', category: 'Вторые блюда', description: 'Настарин шохона', price: '580 000', image: '' },
+    { id: 79, name: 'Тандир', category: 'Вторые блюда', description: 'Тандир', price: '260 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEY3kouHVT15GoIIzJswykD8lWIYiG6QEDyclol7uUzYaT8Yilc3vEZ08&s=10' },
+
+    // ХЛЕБ И ГАРНИРЫ
+    { id: 80, name: 'Манты', category: 'Хлеб и гарниры', description: 'Манты 1 шт', price: '7 000', image: 'https://dostavo4ka.uz/upload-file/2021/07/18/6242/750x750-cb1eea8c-6afd-41a7-8852-6dc37fd457ef.jpg' },
+    { id: 81, name: 'Фитчи', category: 'Хлеб и гарниры', description: 'Фитчи', price: '35 000', image: 'https://www.povarenok.ru/data/cache/2012sep/06/40/1227_40173-710x550x.jpg' },
+    { id: 82, name: 'Фатир', category: 'Хлеб и гарниры', description: 'Фатир', price: '10 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMxAebMWz-o90C4ixNKX5CX6Qu6shRsAd1ew3fEl257cHN5PIprP11oS7&s=10' },
+    { id: 83, name: 'Кулча', category: 'Хлеб и гарниры', description: 'Кулча', price: '4 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbO1PR1OB7oeet5lR08yIxzvz7nYAmYY-ggMM1Ew3xZl4zTqFx9PmW5XS3&s=10' },
+    { id: 84, name: 'Нон ассорти', category: 'Хлеб и гарниры', description: 'Ассорти из лепешек', price: '15 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1X562teNGyZzOCtS9NnCHHDy3-eoSolrPrTESrMkQ0f6ZPHfhBnghvs6o&s=10' },
+    { id: 85, name: 'Тандир сомса', category: 'Хлеб и гарниры', description: 'Тандир сомса', price: '16 000', image: 'https://meros.uz/upload/2017/02/2e37d88566aba416e58b6d0979f3c8aa-large.jpg' },
+    { id: 86, name: 'Картофель фри', category: 'Хлеб и гарниры', description: 'Картофель фри', price: '20 000', image: 'https://images.gastronom.ru/d_tNE85NotuCZzXNP8dktgsVFr9_AudkqFsciR3Hydc/pr:article-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzhhMTRjODI1LTAzZDUtNDAxYS1iOWY1LTU4Yzc5MDAzNmQ4OS5qcGc.webp' },
+    { id: 87, name: 'Буханкача', category: 'Хлеб и гарниры', description: 'Буханкача', price: '2 500', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKJbPg_EMlqEnZK-tU_RKb2_5cxNaVw-MXYD46HiuQt-g9KmCKQUO8oKM&s=10' },
+    { id: 88, name: 'Нон Амири', category: 'Хлеб и гарниры', description: 'Нон Амири', price: '6 000', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeduQEuPj5zHp6ioz6gTW_fhEvsNp7YKGn0cSc_fruyMwpCw3k1GScxNl7&s=10' },
+];
+
+export const categories = [
+    'Салаты',
+    'Десерты',
+    'Напитки',
+    'Чай',
+    'Первые блюда',
+    'Вторые блюда',
+    'Хлеб и гарниры'
+];
